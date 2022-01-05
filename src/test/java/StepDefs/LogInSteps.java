@@ -16,7 +16,7 @@ public class LogInSteps {
 	@Given("^User is in the Home Page$")
 	public void user_is_in_the_Home_Page() throws InterruptedException  {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Chromed\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\ChromDriver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
@@ -25,30 +25,27 @@ public class LogInSteps {
 		Thread.sleep(2000);
 	
 	}
+	
+	@When("^User Clicks on log Into Existing Account$")
+	public void user_Clicks_on_log_Into_Existing_Account()      {
+        driver.findElement(By.id("u_0_b")).click();
+
+		
+	}
 
 	@When("^User Enters Email in text box$")
 	public void user_Enters_Email_in_text_box()  {
-		driver.findElement(By.name("")).sendKeys("Taani");
+		driver.findElement(By.name("email")).sendKeys("Taani");
 
 
 	}
 
 	@When("^User Enters Password in text box$")
 	public void user_Enters_Password_in_text_box()      {
-		driver.findElement(By.name("")).sendKeys("!235Raj");
-
-
-		
-		
+		driver.findElement(By.name("pass")).sendKeys("!235Raj");	
 	}
 
-	@When("^User Clicks on Log in$")
-	public void user_Clicks_on_Log_in()   {
-    driver.findElement(By.id("")).click();
-
-		
-	}
-
+	
 	@Then("^User Close the Home Page$")
 	public void user_Close_the_Home_Page()    {
      driver.close();
@@ -56,6 +53,21 @@ public class LogInSteps {
 		
 		
 	}
+	
+	@When("^User Enters \"([^\"]*)\" in Email text box$")
+	public void user_Enters_in_Email_text_box(String Email)     {
+		driver.findElement(By.name("email")).sendKeys(Email);
+
+	}
+
+	@When("^User Enters \"([^\"]*)\"  in Passwod text box$")
+	public void user_Enters_in_Passwod_text_box(String Password)     {
+		driver.findElement(By.name("pass")).sendKeys(Password);
+
+
+	}
+
+
 
 
 	

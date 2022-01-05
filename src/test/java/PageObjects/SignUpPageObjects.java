@@ -42,11 +42,18 @@ public class SignUpPageObjects {
 		
 	}
 	
-	public WebElement getmobilenumberoremail() {
-		WebElement MobileOrEmail = driver.findElement(By.name("reg_email__"));
-		return MobileOrEmail;
+	public WebElement getMobile() {
+		WebElement Mobile = driver.findElement(By.name("reg_email__"));
+		return Mobile;
 		
 	}
+	
+	public WebElement getreenterEmail() {
+		WebElement Email = driver.findElement(By.name("reg_email_confirmation__"));
+		return Email;
+		
+	}
+	
 	
 	public WebElement getnewpasswrod() {
 		WebElement NewPassword = driver.findElement(By.name("reg_passwd__"));
