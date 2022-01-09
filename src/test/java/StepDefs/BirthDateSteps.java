@@ -17,12 +17,12 @@ public class BirthDateSteps {
 	@Given("^User Opens the HomePage$")
 	public void user_Opens_the_HomePage() throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\ChromDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\ChromeD\\chromedriver.exe");
 		driver= new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.facebook.com/r.php?r=101");
 		Thread.sleep(2000);
 	}
 	
@@ -46,7 +46,7 @@ public class BirthDateSteps {
 		Month.selectByIndex(9);
 		Month.selectByIndex(10);
 		Month.selectByIndex(11);
-		Month.selectByIndex(12);
+		
 		    
 	}
 	
