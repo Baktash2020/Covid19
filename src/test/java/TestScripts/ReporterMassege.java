@@ -1,32 +1,25 @@
 package TestScripts;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-  
-  public class validateElements {
-
-	  WebDriver driver;
-	
-
-	
+public class ReporterMassege {
+	WebDriver driver;
 	
 	@BeforeTest
 	
 	 public void Beforetest() {
 		
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
+   System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
@@ -66,7 +59,7 @@ import org.testng.annotations.Test;
 	
 	@Test(priority=02)
 	
-  public void ElementsEnabled() throws InterruptedException {
+ public void ElementsEnabled() throws InterruptedException {
 		
 		WebElement userName = driver.findElement(By.name("user-name"));
 		userName.sendKeys("standard_user");
@@ -83,6 +76,9 @@ import org.testng.annotations.Test;
 		
 		
 		Reporter.log("End to End Testing Scneario Passed Successfully!");
+		
+		
+		
 		AssertJUnit.assertEquals(usernameEnable, true);
 		AssertJUnit.assertEquals(passwordEnable, true);
 		AssertJUnit.assertEquals(logInEnable, true);
@@ -94,12 +90,5 @@ import org.testng.annotations.Test;
 			driver.quit();
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-	}
 
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Cross Browse Testing">
+
+<test name = "Chrome Test">
+
+<parameter name = "Browser" value="chrome"></parameter>
+<classes>
+<class name= "TestScripts.validateLoginTestData"></class>
+
+</classes>
+
+<test name = "IE Test">
+
+<parameter name = "Browser" value="IEBrowser"></parameter>
+<classes>
+<class name= "TestScripts.iEBrowserTesting"></class>
+
+</classes>
+</test>
+<test name = "Mozila Test">
+
+<parameter name = "Browser" value="Mozila"></parameter>
+<classes>
+<class name= "TestScripts.mozilaBrowser"></class>
+
+</classes>
+
+</test>
+</test>
+
+</suite>

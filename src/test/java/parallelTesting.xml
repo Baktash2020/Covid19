@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="Data Driven Testing for Login Module" parallel = "tests">
+
+<test name = "Data Driven">
+
+<parameter name = "username" value= "standard_user"></parameter>
+<parameter name = "password" value="secret_sauce"></parameter>
+<parameter name = "expectedURL" value= "https://www.saucedemo.com/inventory.html"></parameter>
+
+
+<classes>
+<class name= "TestScripts.validateLoginTestData"></class>
+</classes>
+</test>
+
+
+<test name = "Data Driven2">
+
+<parameter name = "username" value= "problem_user"></parameter>
+<parameter name= "password" value="secret_sauce"></parameter>
+<parameter name = "expectedURL" value= "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+<class name= "TestScripts.validateLoginTestData"></class>
+</classes>
+
+</test>
+
+<test name = "Data Driven3">
+
+<parameter name = "username" value= "performance_glitch_user"></parameter>
+<parameter name= "password" value="secret_sauce"></parameter>
+<parameter name = "expectedURL" value= "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+<class name= "TestScripts.validateLoginTestData"></class>
+</classes>
+
+</test>
+
+
+
+<test name = "Data Driven4">
+
+<parameter name = "username" value= "locked_out_user"></parameter>
+<parameter name= "password" value="secret_sauce"></parameter>
+<parameter name = "expectedURL" value= "https://www.saucedemo.com/"></parameter>
+
+<classes>
+<class name= "TestScripts.validateLoginTestData"></class>
+</classes>
+</test>
+
+
+
+</suite>

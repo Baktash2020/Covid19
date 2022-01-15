@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Testing for Login Module]">
+  <test thread-count="5" name="Data Driven4(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="locked_out_user"/>
+    <classes>
+      <class name="TestScripts.validateLoginTestData">
+        <methods>
+          <include name="Beforetest"/>
+          <include name="closeTest"/>
+          <include name="DataDrivenLoging" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestScripts.validateLoginTestData -->
+    </classes>
+  </test> <!-- Data Driven4(failed) -->
+</suite> <!-- Failed suite [Data Driven Testing for Login Module] -->

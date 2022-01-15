@@ -1,7 +1,5 @@
 package TestScripts;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -14,12 +12,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-  
-  public class validateElements {
-
-	  WebDriver driver;
+public class dependOnMethodeTNG {
 	
-
+	
+WebDriver driver;
 	
 	
 	@BeforeTest
@@ -38,54 +34,40 @@ import org.testng.annotations.Test;
 		
 	}
 	
-
+	@Test 
 	
-	
-	
-	@Test (priority=01)
-	
-	public void Elementdisplayed() throws InterruptedException {
+	public void Elementdisplayed() {
 		
 		WebElement userName = driver.findElement(By.name("user-name"));
-		userName.sendKeys("standard_user");
-		Thread.sleep(2000);
-		userName.click();
 		WebElement passWord = driver.findElement(By.name("password"));
-		passWord.sendKeys("secret_sauce");
-		Thread.sleep(2000);
 		WebElement logIn = driver.findElement(By.name("login-button"));
 		
 		boolean usernamedisplay = userName.isDisplayed();
 		boolean passworddisplay= passWord.isDisplayed();
 		boolean logIndisplay = logIn.isDisplayed();
 		
-		AssertJUnit.assertEquals(usernamedisplay, true);
-		AssertJUnit.assertEquals(passworddisplay, true);
-		AssertJUnit.assertEquals(logIndisplay, true);
+		Assert.assertEquals(usernamedisplay, true);
+		Assert.assertEquals(passworddisplay, true);
+		Assert.assertEquals(logIndisplay, true);
 	}
 	
-	@Test(priority=02)
+	@Test(dependsOnMethods ={"Elementdisplayed"})
 	
-  public void ElementsEnabled() throws InterruptedException {
+  public void ElementsEnabled() {
 		
 		WebElement userName = driver.findElement(By.name("user-name"));
-		userName.sendKeys("standard_user");
-		Thread.sleep(2000);
 		WebElement passWord = driver.findElement(By.name("password"));
-		passWord.sendKeys("secret_sauce");
-		Thread.sleep(2000);
 		WebElement logIn = driver.findElement(By.name("login-button"));
 		
 		boolean usernameEnable = userName.isEnabled();
 		boolean passwordEnable= passWord.isEnabled();
 		boolean logInEnable = logIn.isEnabled();
 		
-		
-		
+		Assert.assertEquals(usernameEnable, true);
+		Assert.assertEquals(passwordEnable, true);
 		Reporter.log("End to End Testing Scneario Passed Successfully!");
-		AssertJUnit.assertEquals(usernameEnable, true);
-		AssertJUnit.assertEquals(passwordEnable, true);
-		AssertJUnit.assertEquals(logInEnable, true);
+		
+		Assert.assertEquals(logInEnable, true);
 	}
 		
 		@AfterTest 
@@ -95,11 +77,5 @@ import org.testng.annotations.Test;
 			
 		}
 		
-		
-		
-		
-		
-		
-		
-	}
 
+}
