@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="Regression test">
+
+<test name = "release 4.32 regression tests">
+
+<classes>
+
+<class name= "TestScripts.sauceValidateEleTSP"></class>
+
+<class name= "TestScripts.validateElements"></class>
+
+
+
+
+
+</classes>
+
+
+</test>
+
+
+</suite>

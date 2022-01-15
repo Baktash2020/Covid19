@@ -12,12 +12,12 @@ public class drapDown {
 
 
 		
-      System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\ChromeD\\chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
 		Thread.sleep(3000);
-		driver.get("");
+		driver.get("https://www.facebook.com/create/");
 		
 		String url = driver.getCurrentUrl();
 		String title = driver.getTitle();

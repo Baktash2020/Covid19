@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23720" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:58Z">
+  <suite name="Smoke test" duration-ms="18663" started-at="2022-01-15T11:14:14Z" finished-at="2022-01-15T11:14:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23720" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:58Z">
-      <class name="TestScripts.validateEndtoEndProductBuyTSP">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="Beforetest" is-config="true" duration-ms="17994" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:52Z">
+    <test name="release 4.32 smoke tests" duration-ms="18663" started-at="2022-01-15T11:14:14Z" finished-at="2022-01-15T11:14:33Z">
+      <class name="TestScripts.sauceValidateEleTSP$validateElements">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="Beforetest" is-config="true" duration-ms="5884" started-at="2022-01-15T11:14:14Z" finished-at="2022-01-15T11:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="EndtoEndTesting()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="EndtoEndTesting" duration-ms="4811" started-at="2022-01-09T18:24:52Z" finished-at="2022-01-09T18:24:57Z">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateElements@685cb137]" name="Beforetest" is-config="true" duration-ms="4813" started-at="2022-01-15T11:14:20Z" finished-at="2022-01-15T11:14:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EndtoEndTesting -->
-        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="closeTest" is-config="true" duration-ms="864" started-at="2022-01-09T18:24:57Z" finished-at="2022-01-09T18:24:58Z">
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="beforeEachTest" is-config="true" duration-ms="145" started-at="2022-01-15T11:14:25Z" finished-at="2022-01-15T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidatePositiveLogin()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="ValidatePositiveLogin" duration-ms="2642" started-at="2022-01-15T11:14:25Z" finished-at="2022-01-15T11:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePositiveLogin -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="beforeEachTest" is-config="true" duration-ms="102" started-at="2022-01-15T11:14:28Z" finished-at="2022-01-15T11:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidatePositiveLogin1()[pri:1, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="ValidatePositiveLogin1" duration-ms="2369" started-at="2022-01-15T11:14:28Z" finished-at="2022-01-15T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePositiveLogin1 -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="beforeEachTest" is-config="true" duration-ms="131" started-at="2022-01-15T11:14:30Z" finished-at="2022-01-15T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidateLockeOutLogin()[pri:2, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="ValidateLockeOutLogin" duration-ms="314" started-at="2022-01-15T11:14:30Z" finished-at="2022-01-15T11:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLockeOutLogin -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@6a4f787b]" name="closeTest" is-config="true" duration-ms="985" started-at="2022-01-15T11:14:31Z" finished-at="2022-01-15T11:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTest -->
-      </class> <!-- TestScripts.validateEndtoEndProductBuyTSP -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.validateElements@685cb137]" name="CloseTest" is-config="true" duration-ms="953" started-at="2022-01-15T11:14:32Z" finished-at="2022-01-15T11:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTest -->
+      </class> <!-- TestScripts.sauceValidateEleTSP$validateElements -->
+      <class name="TestScripts.validateElements">
+        <test-method status="PASS" signature="Elementdisplayed()[pri:1, instance:TestScripts.validateElements@685cb137]" name="Elementdisplayed" duration-ms="172" started-at="2022-01-15T11:14:30Z" finished-at="2022-01-15T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elementdisplayed -->
+        <test-method status="PASS" signature="ElementsEnabled()[pri:2, instance:TestScripts.validateElements@685cb137]" name="ElementsEnabled" duration-ms="110" started-at="2022-01-15T11:14:31Z" finished-at="2022-01-15T11:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementsEnabled -->
+      </class> <!-- TestScripts.validateElements -->
+    </test> <!-- release 4.32 smoke tests -->
+  </suite> <!-- Smoke test -->
 </testng-results>
