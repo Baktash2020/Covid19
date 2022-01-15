@@ -8,11 +8,49 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,779</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression test</th></tr>
+<tr><td><a href="#t0">release 4.32 regression tests</a></td><td class="num">3</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">9,353</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestScripts.validateEndtoEndProductBuyTSP</td><td><a href="#m0">EndtoEndTesting</a></td><td rowspan="1">1642243112168</td><td rowspan="1">3814</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">release 4.32 regression tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">TestScripts.validateElements</td><td><a href="#m0">Beforetest</a></td><td rowspan="1">1642253912337</td><td rowspan="1">8</td></tr><tr class="failedeven"><td><a href="#m1">CloseTest</a></td><td rowspan="1">1642253918724</td><td rowspan="1">1</td></tr><tr><th colspan="4">release 4.32 regression tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">TestScripts.validateElements</td><td><a href="#m2">Elementdisplayed</a></td><td rowspan="1">1642253915163</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">ElementsEnabled</a></td><td rowspan="1">1642253917589</td><td rowspan="1">0</td></tr><tr><th colspan="4">release 4.32 regression tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestScripts.sauceValidateEleTSP$validateElements</td><td><a href="#m4">ValidateLockeOutLogin</a></td><td rowspan="1">1642253917697</td><td rowspan="1">281</td></tr><tr class="passedeven"><td><a href="#m5">ValidatePositiveLogin</a></td><td rowspan="1">1642253912637</td><td rowspan="1">2520</td></tr><tr class="passedeven"><td><a href="#m6">ValidatePositiveLogin1</a></td><td rowspan="1">1642253915292</td><td rowspan="1">2294</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestScripts.validateEndtoEndProductBuyTSP#EndtoEndTesting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>release 4.32 regression tests</h2><h3 id="m0">TestScripts.validateElements#Beforetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Aqdas\Desktop\Driver\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at TestScripts.validateElements.Beforetest(validateElements.java:26)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestScripts.validateElements#CloseTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at TestScripts.validateElements.CloseTest(validateElements.java:73)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestScripts.validateElements#Elementdisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Aqdas\Desktop\Driver\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at TestScripts.validateElements.Beforetest(validateElements.java:26)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestScripts.validateElements#ElementsEnabled</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Aqdas\Desktop\Driver\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at TestScripts.validateElements.Beforetest(validateElements.java:26)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestScripts.sauceValidateEleTSP$validateElements#ValidateLockeOutLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestScripts.sauceValidateEleTSP$validateElements#ValidatePositiveLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestScripts.sauceValidateEleTSP$validateElements#ValidatePositiveLogin1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

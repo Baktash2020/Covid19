@@ -21,7 +21,7 @@ public class dropDownTSP {
     System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
-		driver.get("");
+		driver.get("https://www.facebook.com/create/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
