@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23720" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:58Z">
+  <suite name="Default suite" duration-ms="7779" started-at="2022-01-15T05:38:29 EST" finished-at="2022-01-15T05:38:36 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23720" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:58Z">
+    <test name="Default test" duration-ms="7779" started-at="2022-01-15T05:38:29 EST" finished-at="2022-01-15T05:38:36 EST">
       <class name="TestScripts.validateEndtoEndProductBuyTSP">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="Beforetest" is-config="true" duration-ms="17994" started-at="2022-01-09T18:24:34Z" finished-at="2022-01-09T18:24:52Z">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@9a7504c]" name="Beforetest" is-config="true" duration-ms="3098" started-at="2022-01-15T05:38:29 EST" finished-at="2022-01-15T05:38:32 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="EndtoEndTesting()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="EndtoEndTesting" duration-ms="4811" started-at="2022-01-09T18:24:52Z" finished-at="2022-01-09T18:24:57Z">
+        <test-method status="PASS" signature="EndtoEndTesting()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@9a7504c]" name="EndtoEndTesting" duration-ms="3814" started-at="2022-01-15T05:38:32 EST" finished-at="2022-01-15T05:38:35 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndtoEndTesting -->
-        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@5e3a8624]" name="closeTest" is-config="true" duration-ms="864" started-at="2022-01-09T18:24:57Z" finished-at="2022-01-09T18:24:58Z">
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateEndtoEndProductBuyTSP@9a7504c]" name="closeTest" is-config="true" duration-ms="811" started-at="2022-01-15T05:38:35 EST" finished-at="2022-01-15T05:38:36 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTest -->
