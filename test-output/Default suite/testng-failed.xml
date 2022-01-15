@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.validateEndtoEndProductBuyTSP">
+      <class name="TestScripts.iEExplorerTesting">
         <methods>
+          <include name="Elementdisplayed"/>
           <include name="Beforetest"/>
-          <include name="closeTest"/>
-          <include name="EndtoEndTesting"/>
+          <include name="CloseTest"/>
         </methods>
-      </class> <!-- TestScripts.validateEndtoEndProductBuyTSP -->
+      </class> <!-- TestScripts.iEExplorerTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
