@@ -1,25 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11220" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:56 EST">
+  <suite name="Data Driven Testing for Login Module" duration-ms="12489" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:29 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11220" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:56 EST">
-      <class name="TestScripts.edgeDriverTesting">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="Beforetest" is-config="true" duration-ms="5053" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:50 EST">
+    <test name="Data Driven2" duration-ms="8227" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:24 EST">
+      <class name="TestScripts.validateLoginTestData">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateLoginTestData@69b0fd6f]" name="Beforetest" is-config="true" duration-ms="4944" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:21 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="Elementdisplayed" duration-ms="4899" started-at="2022-01-15T14:32:50 EST" finished-at="2022-01-15T14:32:55 EST">
+        <test-method status="PASS" signature="DataDrivenLoging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestScripts.validateLoginTestData@69b0fd6f]" name="DataDrivenLoging" duration-ms="1606" started-at="2022-01-16T07:11:21 EST" finished-at="2022-01-16T07:11:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Elementdisplayed -->
-        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="CloseTest" is-config="true" duration-ms="1167" started-at="2022-01-15T14:32:55 EST" finished-at="2022-01-15T14:32:56 EST">
+        </test-method> <!-- DataDrivenLoging -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateLoginTestData@69b0fd6f]" name="closeTest" is-config="true" duration-ms="1592" started-at="2022-01-16T07:11:23 EST" finished-at="2022-01-16T07:11:24 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseTest -->
-      </class> <!-- TestScripts.edgeDriverTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestScripts.validateLoginTestData -->
+    </test> <!-- Data Driven2 -->
+    <test name="Data Driven4" duration-ms="8368" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:25 EST">
+      <class name="TestScripts.validateLoginTestData">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateLoginTestData@42eca56e]" name="Beforetest" is-config="true" duration-ms="5070" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="DataDrivenLoging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestScripts.validateLoginTestData@42eca56e]" name="DataDrivenLoging" duration-ms="1301" started-at="2022-01-16T07:11:21 EST" finished-at="2022-01-16T07:11:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLoging -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateLoginTestData@42eca56e]" name="closeTest" is-config="true" duration-ms="1971" started-at="2022-01-16T07:11:23 EST" finished-at="2022-01-16T07:11:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestScripts.validateLoginTestData -->
+    </test> <!-- Data Driven4 -->
+    <test name="Data Driven" duration-ms="8589" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:25 EST">
+      <class name="TestScripts.validateLoginTestData">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateLoginTestData@587d1d39]" name="Beforetest" is-config="true" duration-ms="5513" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:22 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="DataDrivenLoging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestScripts.validateLoginTestData@587d1d39]" name="DataDrivenLoging" duration-ms="1464" started-at="2022-01-16T07:11:22 EST" finished-at="2022-01-16T07:11:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLoging -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateLoginTestData@587d1d39]" name="closeTest" is-config="true" duration-ms="1596" started-at="2022-01-16T07:11:23 EST" finished-at="2022-01-16T07:11:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestScripts.validateLoginTestData -->
+    </test> <!-- Data Driven -->
+    <test name="Data Driven3" duration-ms="12489" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:29 EST">
+      <class name="TestScripts.validateLoginTestData">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateLoginTestData@37374a5e]" name="Beforetest" is-config="true" duration-ms="5302" started-at="2022-01-16T07:11:16 EST" finished-at="2022-01-16T07:11:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="DataDrivenLoging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestScripts.validateLoginTestData@37374a5e]" name="DataDrivenLoging" duration-ms="6353" started-at="2022-01-16T07:11:21 EST" finished-at="2022-01-16T07:11:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLoging -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.validateLoginTestData@37374a5e]" name="closeTest" is-config="true" duration-ms="817" started-at="2022-01-16T07:11:28 EST" finished-at="2022-01-16T07:11:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestScripts.validateLoginTestData -->
+    </test> <!-- Data Driven3 -->
+  </suite> <!-- Data Driven Testing for Login Module -->
 </testng-results>
