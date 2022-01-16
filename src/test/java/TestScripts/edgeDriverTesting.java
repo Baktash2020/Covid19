@@ -19,7 +19,7 @@ public class edgeDriverTesting {
 	
 	 public void Beforetest() {
 		
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\Nilla\\Desktop\\EdgeDriver\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
 		
 		driver = new EdgeDriver();
 		

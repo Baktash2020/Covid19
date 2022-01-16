@@ -26,7 +26,7 @@ public class validateEndtoEndProductBuyTSP {
 	 public void Beforetest() {
 		
 
-     System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
+     System.setProperty("webdriver.chrome.driver", "");
 
 		
 		driver = new ChromeDriver();

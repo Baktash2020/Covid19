@@ -4,13 +4,14 @@
   <test thread-count="5" name="Chrome Test(failed)">
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="TestScripts.validateLoginTestData">
+      <class name="TestScripts.validateElements">
         <methods>
+          <include name="CloseTest"/>
           <include name="Beforetest"/>
-          <include name="closeTest"/>
-          <include name="DataDrivenLoging"/>
+          <include name="Elementdisplayed"/>
+          <include name="ElementsEnabled"/>
         </methods>
-      </class> <!-- TestScripts.validateLoginTestData -->
+      </class> <!-- TestScripts.validateElements -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Cross Browse Testing] -->
