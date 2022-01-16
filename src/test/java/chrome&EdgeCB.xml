@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name = "Cross Browse Testing">
+
+	<suite name = "Cross Browse Testing">
 
 <test name = "Chrome Test">
 
@@ -12,11 +13,11 @@
 
 
 </test>
-<test name = "Mozila Test">
+<test name = "Edge Test">
 
-<parameter name = "Browser" value="Mozila"></parameter>
+<parameter name = "Browser" value="Edge"></parameter>
 <classes>
-<class name= "TestScripts.firefoxDriver"></class>
+<class name= "TestScripts.edgeDriverTesting"></class>
 
 </classes>
 

@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[End to End Testing Scneario Passed Successfully!]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19778" started-at="2022-01-15T18:32:12Z" finished-at="2022-01-15T18:32:32Z">
+  <suite name="Cross Browse Testing" duration-ms="31433" started-at="2022-01-16T12:26:07Z" finished-at="2022-01-16T12:26:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19778" started-at="2022-01-15T18:32:12Z" finished-at="2022-01-15T18:32:32Z">
-      <class name="TestScripts.firefoxDriver">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.firefoxDriver@5e3a8624]" name="Beforetest" is-config="true" duration-ms="12559" started-at="2022-01-15T18:32:12Z" finished-at="2022-01-15T18:32:25Z">
+    <test name="Chrome Test" duration-ms="15418" started-at="2022-01-16T12:26:07Z" finished-at="2022-01-16T12:26:23Z">
+      <class name="TestScripts.validateElements">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateElements@604ed9f0]" name="Beforetest" is-config="true" duration-ms="5648" started-at="2022-01-16T12:26:07Z" finished-at="2022-01-16T12:26:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.firefoxDriver@5e3a8624]" name="Elementdisplayed" duration-ms="4935" started-at="2022-01-15T18:32:25Z" finished-at="2022-01-15T18:32:30Z">
+        <test-method status="PASS" signature="Elementdisplayed()[pri:1, instance:TestScripts.validateElements@604ed9f0]" name="Elementdisplayed" duration-ms="4662" started-at="2022-01-16T12:26:13Z" finished-at="2022-01-16T12:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Elementdisplayed -->
-        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.firefoxDriver@5e3a8624]" name="CloseTest" is-config="true" duration-ms="2249" started-at="2022-01-15T18:32:30Z" finished-at="2022-01-15T18:32:32Z">
+        <test-method status="PASS" signature="ElementsEnabled()[pri:2, instance:TestScripts.validateElements@604ed9f0]" name="ElementsEnabled" duration-ms="4323" started-at="2022-01-16T12:26:18Z" finished-at="2022-01-16T12:26:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[End to End Testing Scneario Passed Successfully!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ElementsEnabled -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.validateElements@604ed9f0]" name="CloseTest" is-config="true" duration-ms="745" started-at="2022-01-16T12:26:22Z" finished-at="2022-01-16T12:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTest -->
+      </class> <!-- TestScripts.validateElements -->
+    </test> <!-- Chrome Test -->
+    <test name="Mozila Test" duration-ms="15976" started-at="2022-01-16T12:26:23Z" finished-at="2022-01-16T12:26:39Z">
+      <class name="TestScripts.firefoxDriver">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.firefoxDriver@6500df86]" name="Beforetest" is-config="true" duration-ms="8950" started-at="2022-01-16T12:26:23Z" finished-at="2022-01-16T12:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.firefoxDriver@6500df86]" name="Elementdisplayed" duration-ms="4813" started-at="2022-01-16T12:26:32Z" finished-at="2022-01-16T12:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elementdisplayed -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.firefoxDriver@6500df86]" name="CloseTest" is-config="true" duration-ms="2209" started-at="2022-01-16T12:26:36Z" finished-at="2022-01-16T12:26:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseTest -->
       </class> <!-- TestScripts.firefoxDriver -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Mozila Test -->
+  </suite> <!-- Cross Browse Testing -->
 </testng-results>
