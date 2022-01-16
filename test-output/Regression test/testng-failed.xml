@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression test]">
+  <test thread-count="5" name="release 4.32 regression tests(failed)">
+    <classes>
+      <class name="TestScripts.validateElements">
+        <methods>
+          <include name="Beforetest"/>
+          <include name="ElementsEnabled"/>
+          <include name="Elementdisplayed"/>
+          <include name="CloseTest"/>
+        </methods>
+      </class> <!-- TestScripts.validateElements -->
+    </classes>
+  </test> <!-- release 4.32 regression tests(failed) -->
+</suite> <!-- Failed suite [Regression test] -->

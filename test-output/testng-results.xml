@@ -5,6 +5,7 @@
       <![CDATA[End to End Testing Scneario Passed Successfully!]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Cross Browse Testing" duration-ms="31433" started-at="2022-01-16T12:26:07Z" finished-at="2022-01-16T12:26:39Z">
     <groups>
     </groups>
@@ -48,4 +49,26 @@
       </class> <!-- TestScripts.firefoxDriver -->
     </test> <!-- Mozila Test -->
   </suite> <!-- Cross Browse Testing -->
+=======
+  <suite name="Default suite" duration-ms="11220" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:56 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11220" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:56 EST">
+      <class name="TestScripts.edgeDriverTesting">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="Beforetest" is-config="true" duration-ms="5053" started-at="2022-01-15T14:32:45 EST" finished-at="2022-01-15T14:32:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="Elementdisplayed" duration-ms="4899" started-at="2022-01-15T14:32:50 EST" finished-at="2022-01-15T14:32:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elementdisplayed -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.edgeDriverTesting@9a7504c]" name="CloseTest" is-config="true" duration-ms="1167" started-at="2022-01-15T14:32:55 EST" finished-at="2022-01-15T14:32:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTest -->
+      </class> <!-- TestScripts.edgeDriverTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
 </testng-results>

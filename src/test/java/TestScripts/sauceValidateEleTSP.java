@@ -24,7 +24,7 @@ public class sauceValidateEleTSP {
 		
 		 public void Beforetest() {
 			
-	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 			
 			driver = new ChromeDriver();
 			SVPO = new sauceValidateElePO(driver);

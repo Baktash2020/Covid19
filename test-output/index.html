@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -48,8 +50,13 @@
             <div class="suite-section-content">
               <ul>
                 <li>
+<<<<<<< HEAD
                   <a href="#" class="navigator-link " panel-name="test-xml-Cross_Browse_Testing">
                     <span>C:\Users\Aqdas\Desktop\Files\Covid19\src\test\java\crossBrowserTesting.xml</span>
+=======
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Nilla\AppData\Local\Temp\testng-eclipse--705929121\testng-customsuite.xml</span>
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +109,11 @@
                     <div class="method-list-content passed suite-Cross_Browse_Testing">
                       <span>
                         <img width="3%" src="passed.png"/>
+<<<<<<< HEAD
                         <a href="#" class="method navigator-link" panel-name="suite-Cross_Browse_Testing" title="TestScripts.validateElements" hash-for-method="Elementdisplayed">Elementdisplayed</a> <!-- method navigator-link -->
+=======
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestScripts.edgeDriverTesting" hash-for-method="Elementdisplayed">Elementdisplayed</a> <!-- method navigator-link -->
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
                       </span>
                       <br/>
                       <span>
@@ -152,7 +163,7 @@
           <div class="suite-Cross_Browse_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestScripts.firefoxDriver</span>
+              <span class="class-name">TestScripts.edgeDriverTesting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -167,11 +178,16 @@
         </div> <!-- panel Cross_Browse_Testing -->
         <div panel-name="test-xml-Cross_Browse_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
             <span class="header-content">C:\Users\Aqdas\Desktop\Files\Covid19\src\test\java\crossBrowserTesting.xml</span>
+=======
+            <span class="header-content">C:\Users\Nilla\AppData\Local\Temp\testng-eclipse--705929121\testng-customsuite.xml</span>
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+<<<<<<< HEAD
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Cross Browse Testing&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
@@ -182,8 +198,13 @@
   &lt;/test&gt; &lt;!-- Chrome Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Mozila Test&quot;&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;Mozila&quot;/&gt;
+=======
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
     &lt;classes&gt;
-      &lt;class name=&quot;TestScripts.firefoxDriver&quot;/&gt;
+      &lt;class name=&quot;TestScripts.edgeDriverTesting&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Mozila Test --&gt;
 &lt;/suite&gt; &lt;!-- Cross Browse Testing --&gt;
@@ -229,6 +250,7 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Elementdisplayed')
+<<<<<<< HEAD
 data.setCell(0, 2, 'TestScripts.firefoxDriver')
 data.setCell(0, 3, 4813);
 data.setCell(1, 0, 1)
@@ -240,6 +262,11 @@ data.setCell(2, 1, 'ElementsEnabled')
 data.setCell(2, 2, 'TestScripts.validateElements')
 data.setCell(2, 3, 4323);
 window.suiteTableData['Cross_Browse_Testing']= { tableData: data, tableDiv: 'times-div-Cross_Browse_Testing'}
+=======
+data.setCell(0, 2, 'TestScripts.edgeDriverTesting')
+data.setCell(0, 3, 4899);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
 return data;
 }
               </script>
@@ -275,13 +302,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+<<<<<<< HEAD
               <div class="chronological-class-name">TestScripts.validateElements</div> <!-- chronological-class-name -->
+=======
+              <div class="chronological-class-name">TestScripts.edgeDriverTesting</div> <!-- chronological-class-name -->
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
               <div class="configuration-test before">
                 <span class="method-name">Beforetest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Elementdisplayed</span>
+<<<<<<< HEAD
                 <span class="method-start">5676 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
@@ -306,10 +338,18 @@ return data;
               <div class="configuration-test after">
                 <span class="method-name">CloseTest</span>
                 <span class="method-start">29219 ms</span>
+=======
+                <span class="method-start">5122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseTest</span>
+                <span class="method-start">10039 ms</span>
+>>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
