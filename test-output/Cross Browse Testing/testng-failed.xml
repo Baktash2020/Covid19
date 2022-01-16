@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Cross Browse Testing]">
   <test thread-count="5" name="Chrome Test(failed)">
@@ -12,19 +11,6 @@
           <include name="DataDrivenLoging"/>
         </methods>
       </class> <!-- TestScripts.validateLoginTestData -->
-=======
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
-    <classes>
-      <class name="TestScripts.iEExplorerTesting">
-        <methods>
-          <include name="Elementdisplayed"/>
-          <include name="Beforetest"/>
-          <include name="CloseTest"/>
-        </methods>
-      </class> <!-- TestScripts.iEExplorerTesting -->
->>>>>>> 9c88daa2018cef4d15bb74f7771c889fb3369ab5
     </classes>
   </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Cross Browse Testing] -->

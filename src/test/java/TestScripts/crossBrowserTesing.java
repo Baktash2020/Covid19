@@ -2,6 +2,7 @@ package TestScripts;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeTest;
@@ -36,6 +37,15 @@ public class crossBrowserTesing {
 		  
 		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\Aqdas\\Desktop\\Mozila\\geckodriver.exe");
 		   driver = new FirefoxDriver();
+		  
+		  
+		  
+	  }
+	  
+    if(Browser=="Edge"){
+		  
+		  System.setProperty("webdriver.edge.driver", "C:\\Users\\Nilla\\Desktop\\EdgeDriver\\msedgedriver.exe");
+		  driver = new EdgeDriver();
 		  
 		  
 		  
