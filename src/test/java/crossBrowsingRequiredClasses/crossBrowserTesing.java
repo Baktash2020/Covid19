@@ -1,4 +1,4 @@
-package TestScripts;
+package crossBrowsingRequiredClasses;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +28,7 @@ public class crossBrowserTesing {
 		}
 		
 		if( Browser=="Edge"){
-			System.setProperty("webdriver.edge.driver", ".exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\Nilla\\Desktop\\EdgeDriver\\msedgedriver.exe");
 			
 			driver = new EdgeDriver();
 			
@@ -38,15 +38,6 @@ public class crossBrowserTesing {
 		  
 		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\Aqdas\\Desktop\\Mozila\\geckodriver.exe");
 		   driver = new FirefoxDriver();
-		  
-		  
-		  
-	  }
-	  
-    if(Browser=="Edge"){
-		  
-		  System.setProperty("webdriver.edge.driver", "C:\\Users\\Nilla\\Desktop\\EdgeDriver\\msedgedriver.exe");
-		  driver = new EdgeDriver();
 		  
 		  
 		  

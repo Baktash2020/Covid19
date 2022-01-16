@@ -1,28 +1,32 @@
-package TestScripts;
+package crossBrowsingRequiredClasses;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class mozilaBrowser {
-	WebDriver driver;
+  
+  public class validateElements {
+
+	  WebDriver driver;
+	
+
 	
 	
-	  @Parameters("Browser")
-	  @BeforeTest
+	@BeforeTest
 	
 	 public void Beforetest() {
 		
-   System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Driver\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
@@ -62,7 +66,7 @@ public class mozilaBrowser {
 	
 	@Test(priority=02)
 	
- public void ElementsEnabled() throws InterruptedException {
+  public void ElementsEnabled() throws InterruptedException {
 		
 		WebElement userName = driver.findElement(By.name("user-name"));
 		userName.sendKeys("standard_user");
@@ -90,10 +94,12 @@ public class mozilaBrowser {
 			driver.quit();
 			
 		}
-	
-	
-	
-	
-	
+		
+		
+		
+		
+		
+		
+		
+	}
 
-}

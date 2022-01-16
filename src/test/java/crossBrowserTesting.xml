@@ -22,5 +22,15 @@
 
 </test>
 
+<test name = "Edge Test">
+
+<parameter name = "Browser" value="Edge"></parameter>
+<classes>
+<class name= "TestScripts.edgeDriverTesting"></class>
+
+</classes>
+
+</test>
+
 
 </suite>

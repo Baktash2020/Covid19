@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[End to End Testing Scneario Passed Successfully!]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13202" started-at="2022-01-16T07:52:22 EST" finished-at="2022-01-16T07:52:36 EST">
+  <suite name="Cross Browse Testing" duration-ms="20055" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:06:05 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13202" started-at="2022-01-16T07:52:22 EST" finished-at="2022-01-16T07:52:36 EST">
+    <test name="Chrome Test" duration-ms="12498" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:05:58 EST">
       <class name="TestScripts.validateElements">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateElements@9a7504c]" name="Beforetest" is-config="true" duration-ms="3544" started-at="2022-01-16T07:52:22 EST" finished-at="2022-01-16T07:52:26 EST">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateElements@1d8d30f7]" name="Beforetest" is-config="true" duration-ms="2892" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:05:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Elementdisplayed()[pri:1, instance:TestScripts.validateElements@9a7504c]" name="Elementdisplayed" duration-ms="4561" started-at="2022-01-16T07:52:26 EST" finished-at="2022-01-16T07:52:31 EST">
+        <test-method status="PASS" signature="Elementdisplayed()[pri:1, instance:TestScripts.validateElements@1d8d30f7]" name="Elementdisplayed" duration-ms="4511" started-at="2022-01-16T09:05:48 EST" finished-at="2022-01-16T09:05:53 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Elementdisplayed -->
-        <test-method status="PASS" signature="ElementsEnabled()[pri:2, instance:TestScripts.validateElements@9a7504c]" name="ElementsEnabled" duration-ms="4296" started-at="2022-01-16T07:52:31 EST" finished-at="2022-01-16T07:52:35 EST">
+        <test-method status="PASS" signature="ElementsEnabled()[pri:2, instance:TestScripts.validateElements@1d8d30f7]" name="ElementsEnabled" duration-ms="4292" started-at="2022-01-16T09:05:53 EST" finished-at="2022-01-16T09:05:57 EST">
           <reporter-output>
             <line>
               <![CDATA[End to End Testing Scneario Passed Successfully!]]>
             </line>
           </reporter-output>
         </test-method> <!-- ElementsEnabled -->
-        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.validateElements@9a7504c]" name="CloseTest" is-config="true" duration-ms="723" started-at="2022-01-16T07:52:35 EST" finished-at="2022-01-16T07:52:36 EST">
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.validateElements@1d8d30f7]" name="CloseTest" is-config="true" duration-ms="740" started-at="2022-01-16T09:05:57 EST" finished-at="2022-01-16T09:05:58 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseTest -->
       </class> <!-- TestScripts.validateElements -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Chrome Test -->
+    <test name="Edge Test" duration-ms="7524" started-at="2022-01-16T09:05:58 EST" finished-at="2022-01-16T09:06:05 EST">
+      <class name="TestScripts.edgeDriverTesting">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="Beforetest" is-config="true" duration-ms="2019" started-at="2022-01-16T09:05:58 EST" finished-at="2022-01-16T09:06:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="Elementdisplayed" duration-ms="4605" started-at="2022-01-16T09:06:00 EST" finished-at="2022-01-16T09:06:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elementdisplayed -->
+        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="CloseTest" is-config="true" duration-ms="897" started-at="2022-01-16T09:06:05 EST" finished-at="2022-01-16T09:06:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTest -->
+      </class> <!-- TestScripts.edgeDriverTesting -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Cross Browse Testing -->
 </testng-results>

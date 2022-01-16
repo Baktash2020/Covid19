@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Cross Browse Testing]">
-  <test thread-count="5" name="Chrome Test(failed)">
-    <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Mozila Test(failed)">
+    <parameter name="Browser" value="Mozila"/>
     <classes>
-      <class name="TestScripts.validateLoginTestData">
+      <class name="TestScripts.firefoxDriver">
         <methods>
+          <include name="CloseTest"/>
           <include name="Beforetest"/>
-          <include name="closeTest"/>
-          <include name="DataDrivenLoging"/>
+          <include name="Elementdisplayed"/>
         </methods>
-      </class> <!-- TestScripts.validateLoginTestData -->
+      </class> <!-- TestScripts.firefoxDriver -->
     </classes>
-  </test> <!-- Chrome Test(failed) -->
+  </test> <!-- Mozila Test(failed) -->
 </suite> <!-- Failed suite [Cross Browse Testing] -->
