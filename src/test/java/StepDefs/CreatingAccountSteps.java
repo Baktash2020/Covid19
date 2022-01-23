@@ -17,13 +17,13 @@ WebDriver driver;
 	@Given("^User is in the HomePage$")
 	public void user_is_in_the_HomePage() throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\ChromeD\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		SUP = new SignUpPageObjects (driver);
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("https://www.facebook.com/r.php?r=101");
+		driver.navigate().to("");
 		Thread.sleep(2000);	
 	}
 	

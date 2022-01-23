@@ -16,7 +16,7 @@ public class LogInSteps {
 	@Given("^User is in the Home Page$")
 	public void user_is_in_the_Home_Page() throws InterruptedException  {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\ChromDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();

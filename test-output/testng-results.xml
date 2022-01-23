@@ -1,51 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
-    <line>
-      <![CDATA[End to End Testing Scneario Passed Successfully!]]>
-    </line>
   </reporter-output>
-  <suite name="Cross Browse Testing" duration-ms="20055" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:06:05 EST">
+  <suite name="Default suite" duration-ms="9942" started-at="2022-01-20T11:37:37 EST" finished-at="2022-01-20T11:37:47 EST">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="12498" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:05:58 EST">
-      <class name="TestScripts.validateElements">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.validateElements@1d8d30f7]" name="Beforetest" is-config="true" duration-ms="2892" started-at="2022-01-16T09:05:45 EST" finished-at="2022-01-16T09:05:48 EST">
+    <test name="Default test" duration-ms="9942" started-at="2022-01-20T11:37:37 EST" finished-at="2022-01-20T11:37:47 EST">
+      <class name="TestScripts.sauceValidateEleTSP$validateElements">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="Beforetest" is-config="true" duration-ms="2844" started-at="2022-01-20T11:37:37 EST" finished-at="2022-01-20T11:37:40 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Elementdisplayed()[pri:1, instance:TestScripts.validateElements@1d8d30f7]" name="Elementdisplayed" duration-ms="4511" started-at="2022-01-16T09:05:48 EST" finished-at="2022-01-16T09:05:53 EST">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="beforeEachTest" is-config="true" duration-ms="174" started-at="2022-01-20T11:37:40 EST" finished-at="2022-01-20T11:37:40 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Elementdisplayed -->
-        <test-method status="PASS" signature="ElementsEnabled()[pri:2, instance:TestScripts.validateElements@1d8d30f7]" name="ElementsEnabled" duration-ms="4292" started-at="2022-01-16T09:05:53 EST" finished-at="2022-01-16T09:05:57 EST">
-          <reporter-output>
-            <line>
-              <![CDATA[End to End Testing Scneario Passed Successfully!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ElementsEnabled -->
-        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.validateElements@1d8d30f7]" name="CloseTest" is-config="true" duration-ms="740" started-at="2022-01-16T09:05:57 EST" finished-at="2022-01-16T09:05:58 EST">
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidatePositiveLogin()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="ValidatePositiveLogin" duration-ms="2501" started-at="2022-01-20T11:37:40 EST" finished-at="2022-01-20T11:37:42 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseTest -->
-      </class> <!-- TestScripts.validateElements -->
-    </test> <!-- Chrome Test -->
-    <test name="Edge Test" duration-ms="7524" started-at="2022-01-16T09:05:58 EST" finished-at="2022-01-16T09:06:05 EST">
-      <class name="TestScripts.edgeDriverTesting">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="Beforetest" is-config="true" duration-ms="2019" started-at="2022-01-16T09:05:58 EST" finished-at="2022-01-16T09:06:00 EST">
+        </test-method> <!-- ValidatePositiveLogin -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="beforeEachTest" is-config="true" duration-ms="114" started-at="2022-01-20T11:37:42 EST" finished-at="2022-01-20T11:37:43 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Elementdisplayed()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="Elementdisplayed" duration-ms="4605" started-at="2022-01-16T09:06:00 EST" finished-at="2022-01-16T09:06:05 EST">
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidatePositiveLogin1()[pri:1, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="ValidatePositiveLogin1" duration-ms="2307" started-at="2022-01-20T11:37:43 EST" finished-at="2022-01-20T11:37:45 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Elementdisplayed -->
-        <test-method status="PASS" signature="CloseTest()[pri:0, instance:TestScripts.edgeDriverTesting@74ad1f1f]" name="CloseTest" is-config="true" duration-ms="897" started-at="2022-01-16T09:06:05 EST" finished-at="2022-01-16T09:06:05 EST">
+        </test-method> <!-- ValidatePositiveLogin1 -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="beforeEachTest" is-config="true" duration-ms="113" started-at="2022-01-20T11:37:45 EST" finished-at="2022-01-20T11:37:45 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseTest -->
-      </class> <!-- TestScripts.edgeDriverTesting -->
-    </test> <!-- Edge Test -->
-  </suite> <!-- Cross Browse Testing -->
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="ValidateLockeOutLogin()[pri:2, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="ValidateLockeOutLogin" duration-ms="282" started-at="2022-01-20T11:37:45 EST" finished-at="2022-01-20T11:37:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLockeOutLogin -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestScripts.sauceValidateEleTSP$validateElements@587d1d39]" name="closeTest" is-config="true" duration-ms="1536" started-at="2022-01-20T11:37:45 EST" finished-at="2022-01-20T11:37:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestScripts.sauceValidateEleTSP$validateElements -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

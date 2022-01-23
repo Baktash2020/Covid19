@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.iEExplorerTesting">
+      <class name="TestScripts.extendsPracticebaseClass2">
         <methods>
-          <include name="Elementdisplayed"/>
-          <include name="Beforetest"/>
-          <include name="CloseTest"/>
+          <include name="EndtoEndTesting"/>
+          <include name="setupTest"/>
         </methods>
-      </class> <!-- TestScripts.iEExplorerTesting -->
+      </class> <!-- TestScripts.extendsPracticebaseClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

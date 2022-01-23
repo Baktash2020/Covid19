@@ -17,7 +17,7 @@ public class GenderRadioButtonSteps {
 	@Given("^User is in gender MainPage$")
 	public void user_is_in_gender_MainPage() throws Throwable {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\ChromDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();

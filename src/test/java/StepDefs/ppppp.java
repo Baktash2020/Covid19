@@ -14,7 +14,7 @@ public class ppppp {
 		WebDriver driver = new ChromeDriver();
 		
 		Thread.sleep(3000);
-		driver.get("https://login.yahoo.com/account/create");
+		driver.get("");
 		
 		String url = driver.getCurrentUrl();
 		String title = driver.getTitle();
