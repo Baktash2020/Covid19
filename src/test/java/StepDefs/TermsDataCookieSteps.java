@@ -17,13 +17,13 @@ public class TermsDataCookieSteps {
 	@Given("^I am in Main Page$")
 	public void i_am_in_Main_Page() throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\ChromDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		TPO = new TermsPageObjects (driver);
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.facebook.com/r.php?");
 		Thread.sleep(2000);	
 	}
 

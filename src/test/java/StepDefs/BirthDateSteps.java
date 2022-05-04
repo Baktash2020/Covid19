@@ -22,7 +22,7 @@ public class BirthDateSteps {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.facebook.com/r.php?");
 		Thread.sleep(2000);
 	}
 	

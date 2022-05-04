@@ -21,14 +21,14 @@ public class LogInSteps {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.facebook.com/");
 		Thread.sleep(2000);
 	
 	}
 	
 	@When("^User Clicks on log Into Existing Account$")
 	public void user_Clicks_on_log_Into_Existing_Account()      {
-        driver.findElement(By.id("u_0_b")).click();
+        driver.findElement(By.linkText("Already have an account?")).click();
 
 		
 	}

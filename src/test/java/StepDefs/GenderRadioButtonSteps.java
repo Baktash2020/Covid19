@@ -22,19 +22,19 @@ public class GenderRadioButtonSteps {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.facebook.com/reg/?rs=2");
 		Thread.sleep(2000);
 	}
 
 	@When("^User is Selecting her/his Gender$")
 	public void user_is_Selecting_her_his_Gender() throws Throwable {
 		
-		driver.findElement(By.id("u_0_6")).click();
+		//driver.findElement(By.xpath("//*[@id=\"u_0_w_nE\"]/span[1]/label")).isSelected();
 		Thread.sleep(2000);
-		driver.findElement(By.id("u_0_7")).click();
+		//driver.findElement(By.id("u_0_7_IP")).click();
 		
 		Thread.sleep(2000);
-		driver.findElement(By.id("u_0_8")).click();
+		driver.findElement(By.id("u_0_6_b4")).click();
 			
 	}
 
@@ -50,7 +50,7 @@ public class GenderRadioButtonSteps {
 	@When("^user is selecting Custom$")
 	public void user_is_selecting_Custom() throws Throwable {
 		
-		driver.findElement(By.id("u_0_8")).click();
+		driver.findElement(By.id("u_0_6_b4")).click();
 			
 	}
 
